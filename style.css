@@ -6,10 +6,37 @@ body {
 nav {
     display: flex;
     flex-direction: row;
-    position: absolute;
+    position: fixed;
     justify-content: space-between;
     height: 80px;
     vertical-align: middle;
+}
+
+
+.nav-right {
+    display: flex;
+}
+
+nav>img {
+    width: 150px;
+    object-fit: contain;
+    margin-left: 50px;
+}
+
+
+.badge>img {
+    width: 50px;
+    justify-content: right;
+}
+
+.moment-focus {
+    width: 70%;
+    margin-top: 100px;
+
+}
+
+.resume-display {
+    width: 30%;
 }
 
 button {
@@ -64,10 +91,16 @@ button {
 }
 
 
+.values-title {
+    position: absolute;
+    margin-top: 100px;
+}
+
 .card {
     width: 300px;
     height: 500px;
     text-align: center;
+    margin-top: 250px;
 }
 
 
@@ -87,19 +120,36 @@ button {
 
 
 .container {
-    width: 700px;
+    width: 1000px;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .latest {
     display: flex;
+
 }
 
+
+.latest-title {
+    position: absolute;
+}
+
+
+.image-focus {
+    margin-top: 120px;
+}
 
 .image-focus>img {
     width: 400px;
 }
 
+
+.image-list {
+    margin-top: 120px;
+}
 
 .card-list {
     display: flex;
