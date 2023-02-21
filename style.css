@@ -43,16 +43,19 @@ nav>ul {
 #btn-donate {
     background-color: transparent;
     border: 2px solid #fcc96a;
+    color: #fcc96a;
 }
 
 .moment-focus {
     width: 70%;
-    margin-top: 100px;
+    margin-top: 25px;
+    line-height: 30px;
 
 }
 
 .resume-display {
     width: 30%;
+    padding-top: 25px;
 }
 
 button {
@@ -61,14 +64,12 @@ button {
 }
 
 
-.fa-solid {
-    color: #fec96b;
-}
 
-.fa-brands {
-    color: #fec96b;
-}
+.yellow-line {
+    width: 150px;
+    border-bottom: 2px solid #fcc96a;
 
+}
 
 #yellow-title {
     color: #fec96b;
@@ -86,6 +87,18 @@ button {
     display: flex;
     justify-content: center;
     text-align: center;
+}
+
+
+.moment-focus {
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+.moment>button {
+    position: absolute;
 }
 
 .resume-display {
