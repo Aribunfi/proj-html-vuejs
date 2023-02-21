@@ -1,5 +1,6 @@
 body {
     font-family: Roboto;
+    width: 100%;
 }
 
 nav {
@@ -17,6 +18,18 @@ button {
 }
 
 
+.fa-solid {
+    color: #fec96b;
+}
+
+.fa-brands {
+    color: #fec96b;
+}
+
+
+#yellow-title {
+    color: #fec96b;
+}
 
 .jumbotron {
     background-image: url('img/sfondo-top.jpeg');
@@ -44,5 +57,65 @@ button {
     background-repeat: no-repeat;
     color: white;
     height: 800px;
+    vertical-align: middle;
     display: flex;
+    justify-content: center;
+
+}
+
+
+.card {
+    width: 300px;
+    height: 500px;
+    text-align: center;
+}
+
+
+.causes {
+    text-align: center;
+
+}
+
+.causes>img {
+    width: 200px;
+
+}
+
+#btn-causes {
+    background-color: #e66461;
+}
+
+
+.container {
+    width: 700px;
+    text-align: center;
+}
+
+.latest {
+    display: flex;
+}
+
+
+.image-focus>img {
+    width: 400px;
+}
+
+
+.card-list {
+    display: flex;
+}
+
+.card-list>img {
+    width: 150px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.action {
+    background-image: url('img/soccer.jpg');
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .7);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    height: 500px;
 }
