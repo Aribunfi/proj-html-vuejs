@@ -7,10 +7,34 @@ const app = createApp({
     data() {
 
         return {
-            message: "DONATE",
+            menus: [
+                {
+                    title: "HOME",
+                    text: "Everything we do"
+                },
+
+                {
+                    title: "MISSION",
+                    text: "Many fields one goal"
+                },
+
+                {
+                    title: "CAUSES",
+                    text: "Your cause, our cause"
+                },
+
+                {
+                    title: "JOURNAL",
+                    text: "Follow us, everyday"
+                },
+            ],
+            activeSlide: 0,
         };
-    },
+    }
+
+
 });
+
 
 app.mount("#app");
 
