@@ -1,11 +1,26 @@
 
-const { createApp } = Vue
+const { createApp } = Vue;
 
-createApp({
+
+const app = createApp({
+
     data() {
-        return {
-            message: 'HOME, MISSION, CAUSES, JOURNAL'
 
-        }
+        return {
+            message: "DONATE",
+        };
+    },
+});
+
+app.mount("#app");
+
+
+const links = document.querySelectorAll("navbar-link");
+
+links.forEach(link => {
+
+    link.addEventListener('click', () => {
+        link.classList.add('change')
     }
-}).mount('#app')
+    )
+})

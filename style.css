@@ -93,6 +93,11 @@ button {
     height: 500px;
 }
 
+
+.change {
+    color: #e66461;
+}
+
 .moment {
     display: flex;
     justify-content: center;
@@ -155,10 +160,13 @@ button {
     text-align: center;
     justify-content: center;
     align-items: center;
-
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
 }
 
-.causes>img {
+
+.causes-gallery>img {
     width: 200px;
 
 }
@@ -167,6 +175,7 @@ button {
     background-color: #e66461;
     display: flex;
     position: absolute;
+    justify-content: center;
 }
 
 
@@ -182,6 +191,8 @@ button {
 .latest {
     display: flex;
     justify-content: center;
+    margin-top: 50px;
+
 
 }
 
@@ -243,20 +254,37 @@ footer {
     justify-content: center;
 }
 
+
+footer>img {
+    position: absolute;
+    width: 150px;
+    margin-top: 20px;
+}
+
+
 footer>ul {
     list-style-type: none;
     display: flex;
     flex-direction: row;
+    gap: 15px;
 }
 
 
+footer>ul>li {
+    border-right: 2px solid gray;
+    padding-right: 12px;
+    margin-top: 50px;
+}
 
 .social {
     flex-direction: row;
+    position: absolute;
+    margin-top: 100px;
 }
 
 .social>ul {
     list-style-type: none;
     display: flex;
     gap: 25px;
+
 }

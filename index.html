@@ -23,15 +23,15 @@
 <body>
 
     <!-- HEADER CON NAVBAR E JUMBOTRON -->
-    <nav>
+    <nav class="navbar-link">
         <img src="img/HelloIMG1669149315591.png" alt="log-charity">
-        <ul id="app">
-            <li><a href="#">{{ this.message }}</a></li>
+        <ul>
+            <li><a href="#"></a></li>
             <li><a href="#"></a></li>
             <li><a href="#"></a></li>
             <li><a href="#"></a></li>
         </ul>
-        <button type="button"></button>
+        <button type="button" id="app">{{ message }}</button>
 
     </nav>
 
@@ -122,13 +122,14 @@
     <section class="causes">
         <h1>RECENT CAUSES</h1>
         <div class="yellow-line"></div>
-
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit soluta incidunt corrupti.</p>
-        <img src="img/strada-giungla.jpeg" alt="cammino-giungla">
-        <img src="img/seduti-terra.jpeg" alt="seduti-fango">
-        <img src="img/acqua.jpeg" alt="acqua">
-        <img src="img/bimbo-in-braccio.jpeg" alt="bimbo-in-braccio">
-        <button type="button" id="btn-causes">VIEW ALL OUR CAUSES</button>
+        <div class="causes-gallery">
+            <img src="img/strada-giungla.jpeg" alt="cammino-giungla">
+            <img src="img/seduti-terra.jpeg" alt="seduti-fango">
+            <img src="img/acqua.jpeg" alt="acqua">
+            <img src="img/bimbo-in-braccio.jpeg" alt="bimbo-in-braccio">
+            <button type="button" id="btn-causes">VIEW ALL OUR CAUSES</button>
+        </div>
     </section>
 
     <!-- SEZIONE ULTIMI ARTICOLI -->
@@ -199,24 +200,24 @@
 <!-- FOOTER -->
 
 <footer>
-    <img src="" alt="">
+    <img src="img/logo-footer.png" alt="">
     <ul>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
+        <li><a href="#">&#169; Copyright 2012-2022</a></li>
+        <li><a href="#">Avada Theme by ThemeFusion</a></li>
+        <li><a href="#">All rights reserved</a></li>
+        <li><a href="#">Powered by Wordpress</a></li>
     </ul>
 
     <section class="social">
         <ul>
             <li>
-                <span><i class="fa-brands fa-facebook fa-xl" add style="color:#fec96b"></i></span>
+                <a href=""><span><i class="fa-brands fa-facebook fa-xl" add style="color:#fec96b"></i></span></a>
             </li>
-            <li><span><i class="fa-brands fa-instagram fa-xl" add style="color:#fec96b"></i></span>
+            <li><a href=""><span><i class="fa-brands fa-instagram fa-xl" add style="color:#fec96b"></i></span></a>
             </li>
-            <li><span><i class="fa-brands fa-twitter fa-xl" add style="color:#fec96b"></i></span>
+            <li><a href=""><span><i class="fa-brands fa-twitter fa-xl" add style="color:#fec96b"></i></span></a>
             </li>
-            <li><span><i class="fa-brands fa-youtube fa-xl" add style="color:#fec96b"></i></span>
+            <li><a href=""><span><i class="fa-brands fa-youtube fa-xl" add style="color:#fec96b"></i></span></a>
             </li>
         </ul>
     </section>
