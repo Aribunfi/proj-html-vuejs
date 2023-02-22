@@ -23,10 +23,10 @@
 <body>
 
     <!-- HEADER CON NAVBAR E JUMBOTRON -->
-    <nav class="navbar-link">
+    <nav class="navbar-link" id="nav">
         <img src="img/HelloIMG1669149315591.png" alt="log-charity">
         <ul>
-            <li id="app"><a href="#"> {{ menus[activeSlide].title }} </a></li>
+            <li id="app" v-for="menu in menus"><a href="#"> {{ menu.title }} </a></li>
             <li><a href="#"></a></li>
             <li><a href="#"></a></li>
             <li><a href="#"></a></li>

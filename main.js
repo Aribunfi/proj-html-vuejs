@@ -28,7 +28,6 @@ const app = createApp({
                     text: "Follow us, everyday"
                 },
             ],
-            activeSlide: 0,
         };
     }
 
@@ -36,7 +35,7 @@ const app = createApp({
 });
 
 
-app.mount("#app");
+app.mount("#nav");
 
 
 const links = document.querySelectorAll("navbar-link");
