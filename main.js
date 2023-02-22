@@ -44,6 +44,7 @@ links.forEach(link => {
 
     link.addEventListener('click', () => {
         link.classList.add('change')
+
     }
     )
 })
