@@ -4,7 +4,8 @@ const { createApp } = Vue
 createApp({
     data() {
         return {
-            message: 'DONATE'
+            message: 'HOME, MISSION, CAUSES, JOURNAL'
+
         }
     }
 }).mount('#app')
